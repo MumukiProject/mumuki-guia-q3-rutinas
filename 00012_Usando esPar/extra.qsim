@@ -1,0 +1,5 @@
+esPar: MOV R1,R0
+   DIV R0, 0x0002
+   MUL R0, 0x0002
+   SUB R1,R0
+RET

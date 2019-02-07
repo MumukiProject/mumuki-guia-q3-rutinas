@@ -1,0 +1,22 @@
+
+examples:
+- name: 'El resultado es correcto'
+  preconditions:
+    memory:
+      'F000': '0004'
+      'F001': '0005'
+      'F002': '0005'
+      'F003': '0007'
+      'F004': '000A'
+      'F005': '000E'
+      
+  postconditions:
+    equal:
+      'FA00': '0000'
+      'FA01': '0001'
+      'FA02': '0001'
+      'FA03': '0001'
+      'FA04': '0000'
+      'FA05': '0000'
+      
+

@@ -1,0 +1,23 @@
+---
+name: 'Q3: Rutinas'
+locale: es
+type: learning
+beta: false
+language: qsim
+id_format: "%05d"
+order:
+- 2
+- 4
+- 6
+- 5
+- 7
+- 8
+- 3
+- 1
+- 11
+- 12
+- 14
+- 10
+- 9
+- 13
+private: false
